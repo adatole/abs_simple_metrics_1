@@ -62,6 +62,10 @@ Meanwhile, if you've run speedtest from the command line, you know it's not exac
 
 That's 5 minutes converted to miliseconds. 
 
+	- run: sudo python3 /etc/newrelic-infra/integrations.d/NR_checkspeed.py
+
+A quick reminder that if you're running this on a Windows system, your directory would be `C:\Program Files\New Relic\newrelic-infra\integrations.d`
+
 Now we move on to the way the output is handled:
 
     split: horizontal
